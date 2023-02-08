@@ -1,0 +1,30 @@
+.reply-comp {
+  margin-top: 30px;
+  padding-left: 10px;
+
+  .ant-row {
+    .author-wrapper {
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+
+      .name {
+        margin-top: 8px;
+      }
+    }
+
+    .text-wrapper {
+      .btn-wrapper {
+        margin-top: 10px;
+        display: flex;
+        gap: 30px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .reply-comp {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,61 @@
+@media only screen and (max-width: 575px) {
+  .hidden-xs {
+    display: none;
+  }
+
+  .home-page {
+    .ant-layout-content {
+      padding: 5px 5px 30px;
+    }
+  }
+
+  .get-post {
+    padding: 5px;
+    overflow-x: hidden;
+
+    .post-content {
+
+      .ant-card-body {
+        padding: 20px 5px;
+
+        .author-wrapper {
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          margin-bottom: 10px;
+
+          .ant-avatar {
+            width: 50px !important;
+            height: 50px !important;
+            margin-bottom: -8px;
+          }
+        }
+      }
+    }
+  }
+
+  .create-post {
+    padding: 5px;
+
+    .ant-card-body {
+      padding: 20px 5px;
+    }
+  }
+
+  .edit-user {
+    padding: 5px;
+
+    .ant-card-body {
+      padding: 20px 5px;
+    }
+  }
+
+  .tools {
+    padding: 5px;
+
+    .ant-card-body {
+      padding: 20px 5px;
+    }
+  }
+}

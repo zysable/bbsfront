@@ -1,0 +1,352 @@
+body {
+  background: rgb(246, 246, 249);
+}
+
+.ant-popconfirm {
+
+  .ant-popconfirm-message,
+  .ant-popconfirm-description,
+  .ant-btn {
+    font-size: 16px;
+  }
+
+  .ant-btn {
+    height: 30px;
+  }
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+
+  .login-card {
+    margin-top: 60px;
+
+    img {
+      width: 150px;
+      border-radius: 50%;
+    }
+
+    .title {
+      margin-top: 24px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .desc {
+      margin: 10px 0 50px;
+      font-size: 16px;
+      color: rgb(102, 102, 135);
+    }
+
+    .ant-card-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #basic {
+      width: 307px;
+
+      input {
+        padding-left: 10px;
+      }
+
+      .ant-form-item-control-input-content {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  }
+}
+
+.home-layout {
+  height: 100vh;
+
+  .home-sider {
+    border-right: 1px solid #cbd5e0;
+    background-color: #fff;
+
+    .top {
+      height: 64px;
+      line-height: 64px;
+      padding: 0 16px;
+      border-bottom: 1px solid #cbd5e0;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+
+      img {
+        height: 50px;
+      }
+
+      p {
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      ;
+    }
+
+    .bottom {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: calc(100vh - 94px);
+
+      .ant-menu-light {
+        color: #4a5568;
+        font-size: 16px;
+        padding: 8px 16px;
+      }
+
+      .logout {
+        padding: 8px 16px;
+
+        .ant-btn {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.home-page {
+  .ant-layout-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cbd5e0;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .user-wrapper {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+
+      .user-link {
+        display: flex;
+        align-items: center;
+
+        .username {
+          margin-right: 10px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .ant-layout-content {
+    background-color: #e3e8f0;
+    overflow: auto;
+    padding: 10px 10px 40px;
+
+    .ant-pagination {
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+}
+
+.get-post {
+  width: 100%;
+  padding: 10px;
+  overflow: auto;
+
+  .post-content {
+    .ant-card-body {
+      padding: 30px 30px 20px 10px;
+
+      .author-wrapper {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .content-wrapper {
+        overflow-wrap: anywhere;
+
+        .title {
+          font-size: 28px;
+          font-weight: bold;
+        }
+
+        .desc {
+          font-size: 16px;
+          margin-top: 10px;
+          font-weight: bold;
+          color: #6c757d;
+        }
+
+        .content {
+          margin-top: 20px;
+          font-size: 16px;
+
+          .ql-editor {
+            padding: 0;
+            min-height: auto;
+
+            img {
+              max-width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .replies {
+    margin-top: 50px;
+  }
+}
+
+.create-post {
+  width: 100%;
+  padding: 10px;
+  overflow: auto;
+
+  .ant-card-body {
+    padding: 30px;
+
+    .ant-row {
+      .ant-col {
+        span {
+          font-size: 16px;
+        }
+
+        i {
+          color: red;
+        }
+
+        .content {
+          display: block;
+          margin-bottom: 10px;
+        }
+
+        &.btn-wrapper {
+          margin-top: 50px;
+          text-align: center;
+
+          .ant-btn {
+            width: 160px;
+          }
+        }
+      }
+    }
+
+    .middle {
+      margin: 30px auto;
+    }
+  }
+}
+
+.edit-user {
+  width: 100%;
+  padding: 10px;
+  overflow: auto;
+
+  .ant-card-body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    &>p {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 10px 0 20px;
+    }
+
+    .avatar-wrapper {
+      max-width: 600px;
+
+      .ant-row {
+        .ant-col {
+          text-align: center;
+
+          .ant-avatar {
+            cursor: pointer;
+          }
+        }
+      }
+
+      .loading-content {
+        height: 100px;
+      }
+    }
+
+    .ant-form {
+      margin-top: 40px;
+
+      .ant-row {
+        .ant-col {
+          text-align: center;
+
+          .ant-form-item-label>label {
+            font-size: 16px;
+          }
+        }
+      }
+
+      .ant-btn {
+        margin-top: 10px;
+        width: 200px;
+      }
+    }
+  }
+}
+
+.tools {
+  width: 100%;
+  padding: 10px 10px 40px;
+
+  .ant-card-body {
+    padding: 30px;
+
+    h1 {
+      font-size: 26px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  }
+
+}
+
+.error-wrapper {
+  display: flex;
+  justify-content: center;
+
+  .ant-card {
+    margin-top: 200px;
+
+    .ant-card-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 0;
+
+      img {
+        width: 200px;
+        border-radius: 50%;
+      }
+
+      h1 {
+        font-size: 36px;
+        font-weight: bold;
+        margin: 20px 0 30px;
+      }
+
+      h2 {
+        font-size: 20px;
+        color: rgb(102, 102, 135);
+      }
+    }
+  }
+}
